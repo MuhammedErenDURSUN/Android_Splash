@@ -23,7 +23,7 @@ kullanılmıştır.
   
 ### Uygulama
 
-  - [![Watch the video](googleplay.png)](app/app-debug.apk)
+  - [![Watch the video](images/googleplay.png)](app/app-debug.apk)
 
 ### Galeri
 
