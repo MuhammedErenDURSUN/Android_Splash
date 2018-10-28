@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/wallpaper" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/circleBig"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.3"
+                    app:srcCompat="@drawable/shape" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.3"
+                    app:srcCompat="@drawable/shape" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.3"
+                    app:srcCompat="@drawable/shape" />
+
+                <ImageView
+                    android:id="@+id/userIcon"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/logo_white" />
+
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="Message"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/userName"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/frame_white"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Kullanıcı Adı"
+                        android:inputType="textPersonName"
+                        android:textColor="#ecf0f1"
+                        android:textColorHint="@color/transparent"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/userMail"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/frame_white"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="E-mail Adresi"
+                        android:inputType="textPersonName"
+                        android:textColor="#ecf0f1"
+                        android:textColorHint="@color/transparent"
+                        android:textSize="16sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <EditText
+                            android:id="@+id/userPassword"
+                            android:layout_width="332dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/frame_white"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Parola"
+                            android:inputType="textPassword"
+                            android:textColor="#ecf0f1"
+                            android:textColorHint="@color/transparent"
+                            android:textSize="16sp" />
+
+                        <FrameLayout
+                            android:layout_width="332dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:id="@+id/passwordShow"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:layout_gravity="right|center_vertical"
+                                android:layout_marginRight="8dp"
+                                app:srcCompat="@drawable/show" />
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="32dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/signupBtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="42dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/frame_color"
+                            android:stateListAnimator="@null"
+                            android:text="Hesap Oluştur"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorPrimaryDark" />
+
+                        <ImageView
+                            android:id="@+id/loadingIcon"
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/shape"
+                            android:src="@drawable/loading"
+                            android:visibility="gone" />
+                    </FrameLayout>
+
+                    <Button
+                        android:id="@+id/loginBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/frame_trasparent"
+                        android:text="Giriş Yap"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <ImageView
+                        android:id="@+id/loginLine"
+                        android:layout_width="120dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="bottom|center"
+                        app:srcCompat="@color/colorPrimaryDark" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
