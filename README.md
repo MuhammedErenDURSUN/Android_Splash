@@ -21,6 +21,7 @@ kullanılmıştır.
   - Uygulamayı kullanıcı tekrar açtığında yeni cihazda oturum açtı ise önceki cihazda oturumun kapatılması.
   - Uygulamada kullanıcının oturumu kapatabilmesi.
 
+- [![Watch the video](images/googleplay.png)](app/app-debug.apk)
 
 ### Galeri
 
