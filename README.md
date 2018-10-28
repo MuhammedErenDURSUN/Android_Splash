@@ -20,7 +20,10 @@ kullanılmıştır.
   - Uygulamayı kullanıcı tekrar açtığında direk kontrol edilip giriş yapması.
   - Uygulamayı kullanıcı tekrar açtığında yeni cihazda oturum açtı ise önceki cihazda oturumun kapatılması.
   - Uygulamada kullanıcının oturumu kapatabilmesi.
+  
+### Uygulama
 
+  - [![Watch the video](googleplay.png)](app/app-debug.apk)
 
 ### Galeri
 
