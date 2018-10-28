@@ -23,3 +23,5 @@ kullanılmıştır.
 
 
 ### Galeri
+
+[![N|Solid](images/galery.png)](images/galery.png)
