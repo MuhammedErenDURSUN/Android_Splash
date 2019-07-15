@@ -1,13 +1,8 @@
-# Android Kullanıcı Kontrolü | Node.js API - MongoDB | Welcome | Login | Signup
+# Android Kullanıcı Kontrolü | Node.js API - MySql | Welcome | Login | Signup
 
 [![N|Solid](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png)](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png)
 
-
-### Android Kullanıcı Kontrolü nedir?
-  
-  Birçok uygulamada aslında kullanmaya alışık olduğumuz, kullanıcının uygulamaya giriş yapmasını, kayıt olmasını, uygulamayala ilk karşılaşmasını sağlayan bir kütüphane geliştirdim. Kütüphane Node.js ile geliştirmiş olduğum Api'ler ile kullanılmaktadır. Veritabanı olarak MongoDB ve MySQL kullanılmıştır. İstediğiniz şekilde özelleştirebilirsiniz.
-
-### Kütüphane ile neler yapılabilir?
+### Android Kullanıcı Kontrolü ile neler yapılabilir?
 
   - Uygulama versiyon kontrolü.
   - Uygulamanın geçici olarak hizmet dışı bırakılması. 
